@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             val alertDialog: AlertDialog? = this?.let {
                 val builder = AlertDialog.Builder(it)
                 builder.apply {
-                    setPositiveButton("Clean",
+                    setPositiveButton("Borrar",
                         DialogInterface.OnClickListener{ dialog, i ->
                             counter = 0
                             num.setText("$counter")
